@@ -1,0 +1,23 @@
+{
+  "SELECTED_CLASSES": [
+    "Algal Leaf",
+    "Healthy",
+    "Red Leaf Spot",
+    "White Spot"
+  ],
+  "EXPAND_FACTOR": 1.4,
+  "IMG_SIZE_S1": [
+    224,
+    224
+  ],
+  "IMG_SIZE_S2": [
+    300,
+    300
+  ],
+  "BATCH_SIZE": 16,
+  "EPOCHS_HEAD": 10,
+  "EPOCHS_FINE": 30,
+  "LR_HEAD": 0.001,
+  "LR_FINE": 5e-05,
+  "SEED": 42
+}

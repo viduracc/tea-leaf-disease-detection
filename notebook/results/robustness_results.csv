@@ -1,0 +1,5 @@
+scenario,accuracy,macro_f1
+S1: Original (baseline),0.88,0.8813055136584549
+S2: Background swapped (shortcut test),0.8,0.7782738095238095
+S3: Brightness -30%,0.7,0.7143215979422877
+S4: 90° rotation,0.84,0.8476971304557512

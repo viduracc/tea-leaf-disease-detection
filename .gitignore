@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv
+env/
+venv/
+venv*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# App data (runtime generated)
+app_data/
+*.db
+*.sqlite
+
+# Datasets
+data/
+
+# Model files (too large for git)
+*.keras
+
+# Old model versions
+models/vHistory/
+
+# Logs
+*.log

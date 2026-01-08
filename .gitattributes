@@ -1,0 +1,12 @@
+# Normalize line endings
+* text=auto
+
+# Binary files
+*.keras binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.bmp binary
+*.webp binary
+*.db binary
+*.sqlite binary

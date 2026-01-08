@@ -1,0 +1,22 @@
+# Web Framework
+streamlit
+fastapi
+uvicorn
+python-multipart
+
+# Machine Learning
+tensorflow
+numpy
+pandas
+scipy
+
+# Computer Vision
+pillow
+opencv-python
+
+# Database
+sqlalchemy
+
+# Authentication
+passlib[bcrypt]
+bcrypt==3.2.2
