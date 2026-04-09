@@ -59,8 +59,7 @@ drive.mount('/content/drive')
 MASTER_DIR = "/content/drive/MyDrive/TeaDataset/master"
 BASE_DIR   = "/content/drive/MyDrive/TeaDataset"
 
-# Set to a previous v5.0 run folder if crops already exist, else None
-PREV_CROP_RUN = "/content/drive/MyDrive/TeaDataset/v5.0/run_20260302_105820"
+PREV_CROP_RUN = None  # Example: "/content/drive/MyDrive/TeaDataset/v5.0/run_20260302_105820"
 
 timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 RUN_DIR   = os.path.join(BASE_DIR, "v5.1", f"run_{timestamp}")
